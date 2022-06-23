@@ -23,6 +23,8 @@ namespace PickRandomCards
                 // executed if line could NOT be converted to int
                 Console.WriteLine("Invalid input. Please try again.");
             }
+
+            Console.ReadLine();
         }
     }
 }
